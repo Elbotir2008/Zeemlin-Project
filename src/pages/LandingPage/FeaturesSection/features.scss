@@ -1,0 +1,85 @@
+.features-section {
+  width: 100%;
+  height: 60rem;
+  background-color: #fec900;
+  padding: 10rem;
+  margin-top: 10rem;
+  .kubik {
+    position: absolute;
+    margin-left: 40rem;
+    margin-top: -20rem;
+  }
+  .flex-class {
+    justify-content: space-between;
+    align-items: center;
+    h5 {
+      font-size: 2.5rem;
+      color: #718278;
+    }
+    h1 {
+      margin-bottom: 2rem;
+      margin-top: 1rem;
+      width: 44rem;
+      line-height: 5rem;
+      font-size: 4.5rem;
+    }
+    .bookImg1 {
+      margin-left: 40rem;
+      margin-top: -4rem;
+    }
+    p {
+      line-height: 2.8rem;
+      width: 60rem;
+      font-size: 2rem;
+    }
+    .featureImg {
+      margin-top: -15rem;
+      width: 50rem;
+    }
+  }
+  .bookImg2 {
+    width: 18rem;
+    margin-left: 90rem;
+    margin-top: -10rem;
+  }
+  .abc2 {
+    margin-top: -10rem;
+    width: 18rem;
+  }
+}
+@media (max-width: 480px) {
+  .features-section {
+    position: relative;
+    padding: 2rem;
+    height: 90rem;
+    margin-top: -40rem;
+    margin-bottom: 30rem;
+    .flex-class {
+      flex-direction: column;
+      h5 {
+        width: 30rem;
+        text-align: center;
+        font-size: 2rem;
+      }
+      h1 {
+        text-align: center;
+        width: 30rem;
+        font-size: 3rem;
+      }
+      p {
+        text-align: center;
+        width: 30rem;
+      }
+      .featureImg {
+        margin-top: 5rem;
+        width: 30rem;
+      }
+    }
+    .bookImg1,
+    .bookImg2,
+    .abc2,
+    .kubik {
+      display: none !important;
+    }
+  }
+}

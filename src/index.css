@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  outline: none;
+  background-color: #000;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+li {
+  list-style: none;
+}
+span {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+button {
+  cursor: pointer;
+}
+.flex-class {
+  display: flex;
+}
+.grid-class {
+  display: grid;
+}
+main {
+  background-color: #000;
+}

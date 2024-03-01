@@ -1,0 +1,122 @@
+.chooseUs-section {
+  width: 100%;
+  height: 70rem;
+  margin-top: 20rem;
+  padding: 5rem;
+  h2 {
+    font-size: 6rem;
+    text-align: center;
+    color: #fff;
+  }
+  .flex-class {
+    margin-left: -12rem;
+    width: 120%;
+    justify-content: space-between;
+    img {
+      width: 15rem;
+    }
+  }
+  .choose-cards {
+    margin-top: 3rem;
+    margin-left: 5rem;
+    grid-template-columns: auto auto auto auto;
+    .card {
+      padding: 3rem 2rem;
+      width: 25rem;
+      margin-top: -4rem;
+      height: 35rem;
+      background-color: red;
+      border-radius: 1rem;
+      &:nth-child(1) {
+        background-color: #fec900;
+      }
+      &:nth-child(2) {
+        margin-top: 4rem;
+        background-color: #0f5c7a;
+      }
+      &:nth-child(3) {
+        background-color: #c8717a;
+      }
+      &:nth-child(4) {
+        margin-top: 4rem;
+        background-color: #b7c8d8;
+      }
+      h1 {
+        color: #fff;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+      }
+      p {
+        width: 17rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
+      }
+      .p1 {
+        color: #6e6c33;
+      }
+      .p2 {
+        color: #cdd1d5;
+      }
+      .p3 {
+        color: #d5c2c5;
+      }
+      .p4 {
+        color: #3c4d44;
+      }
+      .img1 {
+        margin: 0rem 7rem;
+      }
+      .img2 {
+        margin: 3rem 8rem;
+      }
+      .img3 {
+        margin: 1rem 9.5rem;
+      }
+      .img4 {
+        margin: -0.5rem 3rem;
+      }
+    }
+  }
+  .my {
+    margin-top: 5rem;
+    margin-left: 115rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .chooseUs-section {
+    height: 170rem;
+    margin-top: -20rem;
+    h2 {
+      text-align: center;
+      width: 24rem;
+      font-size: 3rem;
+    }
+    .flex-class {
+      display: none;
+    }
+    .choose-cards {
+      margin-left: 0;
+      width: 10%;
+      display: flex;
+      flex-direction: column;
+      .card {
+        &:nth-child(1) {
+          margin-top: 3rem;
+        }
+        &:nth-child(2) {
+          margin-top: 3rem;
+        }
+        &:nth-child(3) {
+          margin-top: 3rem;
+        }
+        &:nth-child(4) {
+          margin-top: 3rem;
+        }
+      }
+    }
+    .my {
+      display: none;
+    }
+  }
+}

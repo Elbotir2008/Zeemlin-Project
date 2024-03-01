@@ -1,0 +1,105 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000000;
+  opacity: 0.8;
+  height: 10rem;
+  padding: 3rem;
+  background-color: #000;
+  nav {
+    align-items: center;
+    justify-content: space-between;
+    .menuBtn {
+      display: none;
+    }
+    h1 {
+      color: #fff;
+      font-size: 2.5rem;
+      cursor: pointer;
+    }
+    ul {
+      gap: 3rem;
+      li {
+        a {
+          font-size: 1.6rem;
+          color: #c5c5c5;
+          transition: 0.1s linear;
+          &:hover {
+            transition: 0.1s linear;
+            text-decoration: underline;
+            color: #2cac17;
+          }
+        }
+      }
+    }
+    .btns {
+      gap: 2rem;
+      button {
+        border-radius: 0.8rem;
+        padding: 0.7rem 2rem;
+        font-weight: 700;
+        color: #fff;
+        background-color: #000;
+        border: 2px solid #fff;
+        &:last-child {
+          border: none;
+          background-color: #2cac17;
+          color: #000;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    height: 7rem;
+    padding: 2rem;
+    nav {
+      display: grid !important;
+      grid-template-columns: auto auto;
+      .menuBtn {
+        display: inline-block;
+        // margin-left: 19rem;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      ul {
+        opacity: 0;
+        margin-top: -50rem;
+        transition: 0.5s linear;
+        li {
+          visibility: hidden;
+          text-align: center;
+          transition: 0s linear;
+        }
+      }
+      .btns {
+        display: none;
+      }
+      .openMenu {
+        opacity: 1;
+        margin-top: 0rem;
+        transition: 0.5s linear;
+        display: grid !important;
+        width: 103%;
+        padding-top: 1rem;
+        flex-direction: column;
+        height: 20rem;
+        position: absolute;
+        z-index: -1;
+        left: -1%;
+        top: 60%;
+        background-color: #000;
+        opacity: 1;
+        li {
+          transition: .3s linear;
+          visibility: visible;
+        }
+      }
+    }
+  }
+}
