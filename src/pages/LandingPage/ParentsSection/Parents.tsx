@@ -10,10 +10,9 @@ const Parents = () => {
             <img src="./pencil.svg" className="img3" alt="Eror" />
             <h1>Zeemlin Features For Parents</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Praesentium architecto, voluptatem illum cum eveniet placeat quas
-              doloribus excepturi quos incidunt! Perferendis similique molestiae
-              error, mollitia quo ut vero quae adipisci?
+              Parents can always and everywhere find out about their child’s
+              progress. They can also find out attendance, grades, certificates,
+              homework and others
             </p>
             <img src="book.svg" className="img4" alt="Eror" />
           </div>

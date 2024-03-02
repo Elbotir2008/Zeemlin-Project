@@ -9,11 +9,10 @@ const Features = () => {
             <h5>FEATURES</h5>
             <h1>Specify the time and day of private class</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Deserunt, quibusdam ipsam maiores praesentium earum dolore
-              corrupti libero nihil, facilis aspernatur aperiam doloremque
-              facere adipisci labore ab quis obcaecati rerum tenetur minus.
-              Dicta, in. Laboriosam maxime ullam quaerat aliquid ex architecto.
+              Due to the availability of our tutors in a vavariety of time slots
+              that are totally tailored to each student’s specific pace, our
+              scheduling system enables meticulous decision-making about time
+              and student compatibility.{" "}
             </p>
             <img src="./book.svg" className="bookImg1" alt="Eror" />
           </div>

@@ -11,6 +11,7 @@ const Footer = () => {
               <li>zeemlin@lift.tghdhy</li>
             </ul>
           </div>
+          <h1>Zeemlin</h1>
           <div className="grid grid2">
             <ul>
               <h1>Resours</h1>
@@ -43,21 +44,11 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="grid grid3">
-            <h1>Join our newsletter</h1>
-            <p>Special ID</p>
-            <div className="flex-class">
-              <input type="email" placeholder="Yours email adress" />
-              <img src="./arrow-right.svg" alt="Eror" />
-            </div>
-            <img src="./googleStore.svg" className="store store1" alt="Eror" />
-            <img src="./appStore.svg" className="store store2" alt="Eror" />
-          </div>
         </div>
         <div className="footer-bottom flex-class">
           <h5>© 2024 • All Rights Reserved</h5>
           <div className="bottom-right flex-class">
-            <img src="./socialMedia.svg" alt="Eror" />
+            {/* <img src="./socialMedia.svg" alt="Eror" /> */}
             <select>
               <option value="Uz">Uz</option>
               <option value="Ru">Ru</option>

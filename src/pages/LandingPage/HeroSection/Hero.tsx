@@ -29,16 +29,6 @@ const Hero = () => {
           </div>
           <img src="ABC.svg" className="abc" alt="Eror" />
         </div>
-        <div className="line2"></div>
-        <div className="company-names grid-class">
-          <img src="./primeVideo.svg" alt="Eror" />
-          <img src="./qa.svg" alt="Eror" />
-          <img src="./pinterest.svg" alt="Eror" />
-          <img src="./sgn.svg" alt="Eror" />
-          <img src="./quiz.svg" alt="Eror" />
-          <img src="./amazon.svg" alt="Eror" />
-        </div>
-        <div className="line2"></div>
       </div>
     </section>
   );

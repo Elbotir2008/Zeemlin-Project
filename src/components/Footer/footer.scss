@@ -3,9 +3,16 @@ footer {
   height: 40rem;
   margin-top: 10rem;
   .grid-class {
+    justify-content: space-between;
     grid-template-columns: auto auto auto;
     margin-left: 3rem;
     width: 100%;
+    h1 {
+      font-size: 3rem;
+      align-self: center;
+      cursor: pointer;
+      color: #fff;
+    }
     .grid {
       h1 {
         color: #fff;
@@ -64,10 +71,9 @@ footer {
         }
       }
     }
-    .grid2,
-    .grid3 {
-      margin-left: 30rem;
-    }
+    // .grid2 {
+    //   margin-left: 20rem;
+    // }
   }
   .footer-bottom {
     justify-content: space-between;

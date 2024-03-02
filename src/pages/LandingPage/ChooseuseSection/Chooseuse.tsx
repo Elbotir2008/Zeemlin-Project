@@ -12,32 +12,32 @@ const Chooseuse = () => {
           <div className="card">
             <h1>Relaxing And Learning</h1>
             <p className="p1">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Quibusdam nam ipsum error quasi nulla labore?
+              There are several sections available in different versions, but
+              most of them have fun.{" "}
             </p>
             <img src="./chart1.svg" className="img1" alt="Eror" />
           </div>
           <div className="card">
             <h1>Certificate</h1>
             <p className="p2">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Quibusdam nam ipsum error quasi nulla labore?
+              We are constantly improving the material for the lessons we want
+              to pass on to others.{" "}
             </p>
             <img src="./chart2.svg" className="img2" alt="Eror" />
           </div>
           <div className="card">
             <h1>Private Mentoring</h1>
             <p className="p3">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Quibusdam nam ipsum error quasi nulla labore?
+              All of our specialists in spesial aducation have the best
+              educational degress.{" "}
             </p>
             <img src="./chart3.svg" className="img3" alt="Eror" />
           </div>
           <div className="card">
             <h1>Online Competitions</h1>
             <p className="p4">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Quibusdam nam ipsum error quasi nulla labore?
+              Engage students in friendly competitions to enhance their learning
+              experience{" "}
             </p>
             <img src="./chart4.svg" className="img4" alt="Eror" />
           </div>
